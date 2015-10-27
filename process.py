@@ -1,5 +1,6 @@
 # coding: cp1250
 #!/usr/bin/python
+# coding: utf-8
 
 import os
 import sys
@@ -71,6 +72,7 @@ processFile(args.input_file)
 
 if args.format == 'csv':
   with open(args.output_file, encoding='utf-8', mode='wb') as csvfile:
+  with open(args.output_file, encoding='cp1250', mode='wt') as csvfile:
     csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], 
       dialect=csv.excel, delimiter=';')
     csvwriter.writeheader()
@@ -79,4 +81,5 @@ if args.format == 'csv':
 
 elif args.format == 'txt':
   for data in database:
-    print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja) 
+    print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)     print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
+    pass
