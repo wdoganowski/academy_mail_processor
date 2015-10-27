@@ -1,17 +1,16 @@
 #!/usr/local/bin/python
 # coding: latin-1
 
-import os
-import sys                
-import csv
-import argparse
+import gdata.docs.service
 
-parser = argparse.ArgumentParser(description='Process the text file into records and stores then in Google Spreadsheet')
-parser.add_argument('-f', '--file_output', default='~/Dropbox/ADB/Lista Uczestnikow/Zgłoszenie.txt', help='output file')
-parser.add_argument('-o', '--output_format', choices=['cvs','txt'], default='cvs', help='output format')
-parser.add_argument('file', help='input file')
-parser.add_argument('user', help='google user name')
-parser.add_argument('password', help='google password')
+# Create a client class which will make HTTP requests with Google Docs server.
+client = gdata.docs.service.DocsService()
+# Authenticate using your Google Docs email address and password.
+client.ClientLogin('wojciech@doganowscy.com', 'vialesarca222', account_type='HOSTED')
 
-args = parser.parse_args()
-print args
+# Query the server for an Atom feed containing a list of your documents.
+documents_feed = client.GetDocumentListFeed()
+# Loop through the feed and extract each document entry.
+for document_entry in documents_feed.entry:
+  # Display the title of the document on the command line.
+  print document_entry.title.text

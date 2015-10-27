@@ -1,5 +1,5 @@
 #!/usr/local/bin/python
-# coding: latin-1
+# coding: cp1250
 
 import os
 import sys                
@@ -32,7 +32,7 @@ def processFile(name):
   in_body = False
   f = open(name, 'r')
   for line in f:
-    #print line,
+    print line,
     if line.startswith('\x0cFrom: "'):
       in_body = False
       #print data
@@ -70,15 +70,13 @@ def processLine(line, data):
 processFile(args.input_file)
 
 if args.format == 'csv':
-  with open(args.output_file, 'wb') as csvfile:
-    csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], dialect='excel')
+  with open(args.output_file, encoding='utf-8', mode='wb') as csvfile:
+    csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], 
+      dialect=csv.excel)
     csvwriter.writeheader()
     for data in database:
      csvwriter.writerow({'imie':data.imie, 'nazwisko':data.nazwisko, 'email':data.email, 'telefon':data.telefon, 'uczelnia':data.uczelnia, 'wydzial':data.wydzial, 'doswiadczenie':data.doswiadczenie, 'motywacja':data.motywacja})
-    #csvwriter.writerows(database)
-  #print '"Imię","Nazwisko","E-Mail","Telefon","Uczelnia/pracodawca","Wydział/dział","Doswiadczenie","Motywacja"'
-  #for data in database:
-  # print '"{0}","{1}","{2}","{3}","{4}","{5}","{6}","{7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
+
 elif args.format == 'txt':
   for data in database:
     print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja) 
