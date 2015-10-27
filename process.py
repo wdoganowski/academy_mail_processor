@@ -4,30 +4,18 @@
 import os
 import sys                
 import csv
+import argparse
 
-def usage():
-  sys.exit('Usage: {0} [-f file] [-o csv|txt]'.format(sys.argv[0]))
-
-
-input_file = ''
-if '-f' in sys.argv:
-  n = sys.argv.index('-f')
-  if len(sys.argv) > n+1 and sys.argv[n+1] != '-o':
-    input_file = sys.argv[n+1]
-  else:
-    usage()
-
-if input_file == '':
-  input_file = '/Users/Wojtek/Dropbox/ADB/Lista Uczestnikow/Zgłoszenie.txt'
-  print 'Using default file', input_file  
-
-output_format = 'csv'
-if '-o' in sys.argv:
-  n = sys.argv.index('-o')
-  if len(sys.argv) > n+1  and sys.argv[n+1] in ('csv', 'txt'):
-    output_format = sys.argv[n+1]
-  else:
-    usage()  
+parser = argparse.ArgumentParser(description='Process the text file into records and stores then in Google Spreadsheet')
+parser.add_argument('-i', '--input_file', default='/Users/Wojtek/Dropbox/ADB/Lista Uczestnikow/Zgłoszenie.txt', help='input file')
+parser.add_argument('-o', '--output_file', default='', help='output file')
+parser.add_argument('-f', '--format', choices=['csv','txt'], default='csv', help='output format')
+parser.add_argument('user', help='google user name')
+parser.add_argument('password', help='google password')
+args = parser.parse_args()
+if args.output_file == '':
+  args.output_file = args.input_file + '.' + args.format
+print args
 
 class Student:
   imie = ''
@@ -81,10 +69,10 @@ def processLine(line, data):
     elif data.doswiadczenie != '':
       data.doswiadczenie += '\n' + line[:len(line)-2].replace('"',"'")
 
-processFile(input_file)
+processFile(args.input_file)
 
-if output_format == 'csv':
-  with open(input_file + '.csv', 'wb') as csvfile:
+if args.format == 'csv':
+  with open(args.output_file, 'wb') as csvfile:
     csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], dialect='excel')
     csvwriter.writeheader()
     for data in database:
@@ -93,8 +81,6 @@ if output_format == 'csv':
   #print '"Imię","Nazwisko","E-Mail","Telefon","Uczelnia/pracodawca","Wydział/dział","Doswiadczenie","Motywacja"'
   #for data in database:
   # print '"{0}","{1}","{2}","{3}","{4}","{5}","{6}","{7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
-elif output_format == 'txt':
+elif args.format == 'txt':
   for data in database:
-    print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
-else:
-  usage()  
+    print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja) 

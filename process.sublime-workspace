@@ -1,0 +1,1071 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"data"
+			],
+			[
+				"in",
+				"input_file"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"pri",
+				"primes"
+			],
+			[
+				"limi",
+				"limitHi"
+			],
+			[
+				"limit",
+				"limitLo"
+			],
+			[
+				"sum",
+				"sumx"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"day",
+				"daysInMonth"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"col",
+				"console"
+			],
+			[
+				"num",
+				"numbers100"
+			],
+			[
+				"numbers",
+				"numbers1000"
+			],
+			[
+				"fi",
+				"five"
+			],
+			[
+				"re",
+				"replaceAt"
+			],
+			[
+				"txt",
+				"txtPower"
+			],
+			[
+				"rs",
+				"result_i"
+			],
+			[
+				"resu",
+				"result_i"
+			],
+			[
+				"co",
+				"countCollatz"
+			],
+			[
+				"count",
+				"countDivisors"
+			],
+			[
+				"ping",
+				"ping_time"
+			],
+			[
+				"kuch",
+				"kuchnia_timer"
+			],
+			[
+				"rela",
+				"relay_debug"
+			],
+			[
+				"ku",
+				"kuch1of"
+			],
+			[
+				"kuchnia",
+				"kuchnia-gora"
+			],
+			[
+				"swi",
+				"switch_leds"
+			],
+			[
+				"salo",
+				"salon_gora"
+			],
+			[
+				"le",
+				"leds_off"
+			],
+			[
+				"l",
+				"leds_on"
+			],
+			[
+				"timer",
+				"timer_debug"
+			],
+			[
+				"kuchni",
+				"kuchnia_timer"
+			],
+			[
+				"ti",
+				"timer_reset"
+			],
+			[
+				"kuc",
+				"kuchnia-gora"
+			],
+			[
+				"salon",
+				"salon_timer_set"
+			],
+			[
+				"sa",
+				"salon_timer_set"
+			],
+			[
+				"rel",
+				"relay_check"
+			],
+			[
+				"wpp",
+				"wpp_kuch_down"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"regi",
+				"registerListener"
+			],
+			[
+				"listener",
+				"listener"
+			],
+			[
+				"rul",
+				"rules_debug"
+			],
+			[
+				"ho",
+				"hommy"
+			],
+			[
+				"hommy",
+				"hommy_debug"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"local",
+				"local_host"
+			],
+			[
+				"loc",
+				"local_host"
+			],
+			[
+				"lo",
+				"local_host"
+			],
+			[
+				"pro",
+				"proxy_debug"
+			],
+			[
+				"po",
+				"port"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"deb",
+				"fibaro_debug"
+			],
+			[
+				"is",
+				"isInt"
+			],
+			[
+				"settings",
+				"settings_file"
+			],
+			[
+				"cle",
+				"client_debug"
+			],
+			[
+				"read",
+				"readFrom"
+			],
+			[
+				"check",
+				"checkState"
+			],
+			[
+				"clie",
+				"client_debug"
+			],
+			[
+				"pr",
+				"proxy"
+			],
+			[
+				"mq",
+				"mqtt_debug"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"mos",
+				"mosca_debug"
+			],
+			[
+				"bu",
+				"buffer"
+			],
+			[
+				"cli",
+				"client_debug"
+			],
+			[
+				"poo",
+				"poolingLoop"
+			],
+			[
+				"cl",
+				"client_debug"
+			],
+			[
+				"connec",
+				"connectTo"
+			],
+			[
+				"switch",
+				"switchOff"
+			],
+			[
+				"con",
+				"contentType"
+			],
+			[
+				"nexo",
+				"nexo_client"
+			],
+			[
+				"hid",
+				"hidden_bg_layer"
+			],
+			[
+				"hidtim",
+				"hide_window_timer"
+			],
+			[
+				"hidd",
+				"hidden_time_layer"
+			],
+			[
+				"to",
+				"toLocaleTimeString"
+			],
+			[
+				"wind",
+				"wind_deg"
+			],
+			[
+				"WE",
+				"WEATHER_REMAINING_KEY"
+			],
+			[
+				"REM",
+				"WEATHER_REMAINING_KEY"
+			],
+			[
+				"sun",
+				"sunset"
+			],
+			[
+				"WEA",
+				"WEATHER_SUNRISE_KEY"
+			],
+			[
+				"RES",
+				"RESOURCE_ID_IMAGE_16_SUNRISE"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"ui",
+				"uint32_t"
+			],
+			[
+				"ini",
+				"initial_values"
+			],
+			[
+				"APP",
+				"APP_LOG_LEVEL_DEBUG"
+			],
+			[
+				"hand",
+				"hands_layer"
+			],
+			[
+				"hi",
+				"hidden_background"
+			],
+			[
+				"time",
+				"time_str"
+			],
+			[
+				"LO",
+				"APP_LOG_LEVEL_DEBUG"
+			],
+			[
+				"tem",
+				"hidden_temperature_layer"
+			],
+			[
+				"hidden_icon_",
+				"hidden_icon_layer"
+			],
+			[
+				"win",
+				"window_layer"
+			],
+			[
+				"laye",
+				"layer_add_child"
+			],
+			[
+				"text_la",
+				"text_layer_set_text"
+			],
+			[
+				"we",
+				"weather_data"
+			],
+			[
+				"OPEN",
+				"OPENWEATHER_TEMP_SIZE"
+			],
+			[
+				"Weather",
+				"WeatherData"
+			],
+			[
+				"DATE_DA",
+				"DATE_DAY_H"
+			],
+			[
+				"inc",
+				"inc	#include \"…\""
+			],
+			[
+				"fore",
+				"forecast_data"
+			],
+			[
+				"te",
+				"temp"
+			],
+			[
+				"value",
+				"value_length"
+			],
+			[
+				"uin",
+				"uint16_t"
+			],
+			[
+				"labe",
+				"label_length"
+			],
+			[
+				"OPENK",
+				"OPENWEATHER_KEY"
+			],
+			[
+				"OP",
+				"OPENWEATHER_CNT_KEY"
+			],
+			[
+				"Tu",
+				"TUPLE_CSTRING"
+			],
+			[
+				"Tup",
+				"TupletCString"
+			],
+			[
+				"forec",
+				"forecast_header"
+			],
+			[
+				"Fore",
+				"ForecastDayType"
+			],
+			[
+				"T",
+				"TupletCString"
+			],
+			[
+				"OPENKEY",
+				"OPENWEATHER_CNT_KEY"
+			],
+			[
+				"sync",
+				"sync_buffer"
+			],
+			[
+				"open",
+				"openweather_deregister_all_callbacks"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"ca",
+				"calloc"
+			],
+			[
+				"forecast",
+				"forecast_data"
+			],
+			[
+				"temp",
+				"temperature"
+			],
+			[
+				"b",
+				"bool"
+			],
+			[
+				"on",
+				"object_count"
+			],
+			[
+				"ob",
+				"object_count"
+			],
+			[
+				"HEADER",
+				"HEADER_CONTENT"
+			],
+			[
+				"ty",
+				"typedef"
+			],
+			[
+				"object",
+				"object_tokens"
+			],
+			[
+				"fo",
+				"forecasts"
+			],
+			[
+				"F",
+				"FORCASTS"
+			],
+			[
+				"OBJ",
+				"JSMN_OBJECT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "process.py",
+			"settings":
+			{
+				"buffer_size": 3737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.py",
+			"settings":
+			{
+				"buffer_size": 462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".sublime-project",
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Wojtek/Git/gdata-python-client/samples/spreadsheets/spreadsheetExample.py",
+		"/Users/Wojtek/Git/euler/526a.py",
+		"/Users/Wojtek/Git/euler/test.py",
+		"/Users/Wojtek/Git/euler/526.py",
+		"/Users/Wojtek/Git/euler/3.py",
+		"/Users/Wojtek/Git/euler/3.js",
+		"/Users/Wojtek/Git/euler/out",
+		"/Users/Wojtek/Git/euler/names.txt",
+		"/Users/Wojtek/Git/euler/22.py",
+		"/Users/Wojtek/Git/euler/22.js",
+		"/Users/Wojtek/Git/euler/23.js",
+		"/Users/Wojtek/Git/euler/names.json",
+		"/Users/Wojtek/Git/euler/test.json",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/nodejs.sublime-build",
+		"/Users/Wojtek/Git/euler/67.js",
+		"/Users/Wojtek/Git/euler/67a.txt",
+		"/Users/Wojtek/Git/euler/18a.txt",
+		"/Users/Wojtek/Git/euler/15.js",
+		"/Users/Wojtek/Git/euler/17.js",
+		"/Users/Wojtek/Git/euler/13.js",
+		"/Users/Wojtek/Git/euler/14.js",
+		"/Users/Wojtek/Git/euler/16a.js",
+		"/Users/Wojtek/Git/euler/16.js",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/js/pebble-js-app.js",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/menu.c",
+		"/Users/Wojtek/Git/node-projects/nexo_proxy/proxy.js",
+		"/Users/Wojtek/Git/node-projects/hommy/switch.js",
+		"/Users/Wojtek/Git/node-projects/nexo_proxy/nexo_cred.json",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/nexo.js",
+		"/Users/Wojtek/Git/node-projects/nexo_proxy/client.js",
+		"/Users/Wojtek/Git/node-projects/hommy/rules.js",
+		"/Users/Wojtek/Git/node-projects/hommy/rules.json",
+		"/Users/Wojtek/Git/node-projects/nexo_proxy/array_test.js",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/nexo_cred.json",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/mqtt_monitor.js",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/proxy.js",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/appinfo.json",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/weather.h",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/analog_face.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/mainwindow.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/README.md",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/LICENSE.md",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/bluetooth.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/battery.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/weather-face-plus.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/mainwindow.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/weather.c",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/settings.h",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/weather-face-plus.h",
+		"/Users/Wojtek/Git/pebble/weather-face-plus/src/bak/weather-face-plus.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/weather.c",
+		"/Users/Wojtek/Git/simple-json-c-parser/makefile",
+		"/Users/Wojtek/Git/simple-json-c-parser/makefile.bak",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/C++.sublime-settings",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/C.sublime-settings",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/Makefile.sublime-settings",
+		"/Users/Wojtek/Git/simple-json-c-parser/test.h",
+		"/Users/Wojtek/Git/simple-json-c-parser/jsp_test.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/openweather.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/openweather.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/appinfo.json",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/js/pebble-js-app.js",
+		"/Users/Wojtek/Git/pebble/ultimate_watch.bak/src/openweather.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch.bak/src/js/pebble-js-app.js",
+		"/Users/Wojtek/Git/pebble/ultimate_watch.bak/src/js/pebble-js-app.bak",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/jsonparser.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/jsonparser.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/ultimate_watch.c",
+		"/Users/Wojtek/Git/pebble/jsonparser/README.md",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/analog_face.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/battery.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/bluetooth.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/forecastwindow.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/mainwindow.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/menudef.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/ultimate_watch.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/weather.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/jsonparser.bak",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/jsmn.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/jsmn.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/json.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/json.c",
+		"/Users/Wojtek/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/Wojtek/Git/pebble/hello_world/src/hello_world.c",
+		"/Users/Wojtek/Git/jsmn/jsmn_test.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/LICENSE.md",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/js/openweather.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/forecastwindow.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/menu.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/weatherwindow.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/weatherwindow.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/battery.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/analog_face.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/simple_analog.h",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/bluetooth.c",
+		"/Users/Wojtek/pebble-dev/PebbleSDK-2.5/Pebble/include/pebble.h",
+		"/Users/Wojtek/pebble-dev/PebbleSDK-2.5/Examples/watchapps/feature_menu_layer/src/feature_menu_layer.c",
+		"/Users/Wojtek/Git/pebble/pebble-controls/split_flap/README.md",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/README.md",
+		"/Users/Wojtek/pebble-dev/PebbleSDK-2.5/Examples/pebblekit-js/weather/src/js/pebble-js-app.js",
+		"/Users/Wojtek/pebble-dev/PebbleSDK-2.5/Examples/pebblekit-js/weather/src/weather.c",
+		"/Users/Wojtek/pebble-dev/PebbleSDK-2.5/Examples/watchfaces/simple_analog/src/simple_analog.c",
+		"/Users/Wojtek/Git/pebble/ultimate_watch/src/simple_analog.c",
+		"/Users/Wojtek/Git/node-projects/mqtt/nexo_mqtt.js",
+		"/Users/Wojtek/Git/node-projects/mqtt/mqtt_test.js",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/topology.json",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/package.json",
+		"/Users/Wojtek/Git/node-projects/switch_test.js",
+		"/Users/Wojtek/Git/node-projects/node_modules/nexo/nexo_mqtt_cred.json",
+		"/Users/Wojtek/Git/node-red-projects/filteredls.js",
+		"/Users/Wojtek/Git/node-red-projects/filteredls_test.js",
+		"/Users/Wojtek/Git/node-red-projects/nexo.js",
+		"/Users/Wojtek/Git/node-red-projects/nexo_mqtt_cred.json",
+		"/Users/Wojtek/Git/node-red-projects/nexo_mqtt.js",
+		"/Users/Wojtek/Git/node-red-projects/mqtt_test.js",
+		"/Users/Wojtek/Git/node-red-projects/protobuf_test.js",
+		"/Users/Wojtek/Git/node-red-projects/protocol.proto",
+		"/Users/Wojtek/Git/node-red-projects/protocol.json",
+		"/Users/Wojtek/Git/node-red-projects/protocol.js",
+		"/Users/Wojtek/Git/node-red-projects/protocol.desc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"factorial",
+			"tab",
+			"            ",
+			"]",
+			"[",
+			"            [            [",
+			"\n            [",
+			"            ",
+			"console.",
+			"R2L",
+			"Col",
+			"\"",
+			";",
+			",",
+			"timer",
+			"console.log",
+			"consol",
+			"imperial",
+			"sendAppMessage",
+			"options",
+			"imperial",
+			"B0C",
+			"process",
+			"ping_total",
+			"ping_time",
+			"is_off",
+			"kuchnia",
+			"timer",
+			"util",
+			"proxy",
+			"client_debug",
+			"prox",
+			"proxy",
+			"this",
+			"hommy_debug",
+			"client_debug",
+			", {error: '",
+			"400",
+			"send",
+			"res.send",
+			")",
+			"(",
+			"require",
+			"util",
+			"local_host",
+			"local_proxy",
+			"fibaro_debug",
+			"proxy_debug",
+			"debug_proxy",
+			"localhost",
+			"bind",
+			"settings_file",
+			"sceneControl",
+			"OK",
+			"alert",
+			"mqtt",
+			"mqtt_client",
+			"mqtt",
+			");\n",
+			"mqtt",
+			"nexo_client",
+			"off",
+			"replace",
+			"buffer",
+			"util",
+			"hidden_bg_layer",
+			"log",
+			"time",
+			"hidden_time_layer",
+			"hidden_desc_layer",
+			"hidden_sunset_layer",
+			"hidden_sunrise_layer",
+			"hidden_icon_layer",
+			"APP_LOG",
+			"dict_",
+			"dict",
+			"64",
+			"sync_buffer",
+			"hidden_desc_layer",
+			"hidden_time_layer",
+			"send_cmd",
+			"hidden_back",
+			"hidden_temperature_layer",
+			"temperature_layer",
+			"hidden_temperature_layer",
+			"hidden_time_layer",
+			"click",
+			"icon_resource",
+			"sync_tuple_changed_callback",
+			"weather_update_proc",
+			"simple_bg_layer",
+			"callback",
+			"tab",
+			"LDIR",
+			"OPENWEATHER_",
+			"update_proc",
+			"update_timer",
+			"sync_tuple_changed_callback",
+			"TUPLET_C",
+			"callback_stack",
+			"set_timer",
+			"OPENWEATHER_FORECAST_KEY",
+			"forecast_h",
+			"forecast_",
+			"city",
+			"message",
+			"forecast_",
+			"_KEY",
+			"OPENWEATHER_HE",
+			"response",
+			"OPENWEATHER_",
+			"OPENWEATHER_KEY",
+			"sync_buffer",
+			"forecast_",
+			"forecast_header",
+			"weather_update_proc",
+			"forecast_header",
+			"forecast_data",
+			"ForecastHeader",
+			"NACK",
+			"error",
+			"num_to",
+			"set_timer",
+			"app_timer_register",
+			"Label",
+			"trends",
+			"print",
+			"json_token_streq"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"             ",
+			"",
+			"            [",
+			"],\n            [            [",
+			"            [",
+			"//console.",
+			"",
+			",",
+			".",
+			"salon",
+			", {}, {error: '",
+			"/32/",
+			"_32_",
+			"RESOURCE_ID_IMAGE_16_",
+			"IMAGE_16_0",
+			"IMAGE_16_01",
+			"cumulus/16/",
+			"cumulus",
+			"mg/flaticon/junctions/",
+			"\", RESOURCE",
+			"{",
+			"bluetooth",
+			"debug",
+			"encodeAndWrite",
+			"settings.",
+			"nexo_client",
+			"credentials",
+			"settings.",
+			"credentials.nexo.",
+			"card_addr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "process.py",
+					"settings":
+					{
+						"buffer_size": 3737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test.py",
+					"settings":
+					{
+						"buffer_size": 462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".sublime-project",
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 200.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true
+}

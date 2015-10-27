@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/Wojtek/Git/academy_mail_processor"
+		}
+	],
+	"build_systems":
+  [
+    {
+    "name": "Run with args",
+    "cmd": ["python", "$file", "user", "password"]
+    }
+  ]
+}
