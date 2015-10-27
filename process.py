@@ -10,12 +10,10 @@ parser = argparse.ArgumentParser(description='Process the text file into records
 parser.add_argument('-i', '--input_file', default='/Users/Wojtek/Dropbox/ADB/Lista Uczestnikow/Zgłoszenie.txt', help='input file')
 parser.add_argument('-o', '--output_file', default='', help='output file')
 parser.add_argument('-f', '--format', choices=['csv','txt'], default='csv', help='output format')
-parser.add_argument('user', help='google user name')
-parser.add_argument('password', help='google password')
 args = parser.parse_args()
 if args.output_file == '':
   args.output_file = args.input_file + '.' + args.format
-print args
+#print args
 
 class Student:
   imie = ''

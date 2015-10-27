@@ -9,7 +9,7 @@
   [
     {
     "name": "Run with args",
-    "cmd": ["python", "$file", "user", "password"]
+    "cmd": ["python", "$file"]
     }
   ]
 }
