@@ -1,13 +1,13 @@
-#!/usr/local/bin/python
 # coding: cp1250
+#!/usr/bin/python
 
 import os
-import sys                
+import sys
 import csv
 import argparse
 
 parser = argparse.ArgumentParser(description='Process the text file into records and stores then in Google Spreadsheet')
-parser.add_argument('-i', '--input_file', default='/Users/Wojtek/Dropbox/ADB/Lista Uczestnikow/Zgłoszenie.txt', help='input file')
+parser.add_argument('-i', '--input_file', default='./Zgłoszenie.txt', help='input file')
 parser.add_argument('-o', '--output_file', default='', help='output file')
 parser.add_argument('-f', '--format', choices=['csv','txt'], default='csv', help='output format')
 args = parser.parse_args()
@@ -32,7 +32,7 @@ def processFile(name):
   in_body = False
   f = open(name, 'r')
   for line in f:
-    print line,
+    #print line'
     if line.startswith('\x0cFrom: "'):
       in_body = False
       #print data
@@ -72,7 +72,7 @@ processFile(args.input_file)
 if args.format == 'csv':
   with open(args.output_file, encoding='utf-8', mode='wb') as csvfile:
     csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], 
-      dialect=csv.excel)
+      dialect=csv.excel, delimiter=';')
     csvwriter.writeheader()
     for data in database:
      csvwriter.writerow({'imie':data.imie, 'nazwisko':data.nazwisko, 'email':data.email, 'telefon':data.telefon, 'uczelnia':data.uczelnia, 'wydzial':data.wydzial, 'doswiadczenie':data.doswiadczenie, 'motywacja':data.motywacja})
