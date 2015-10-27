@@ -3,6 +3,7 @@
 
 import os
 import sys                
+import csv
 
 def usage():
   sys.exit('Usage: {0} [-f file] [-o csv|txt]'.format(sys.argv[0]))
@@ -83,11 +84,17 @@ def processLine(line, data):
 processFile(input_file)
 
 if output_format == 'csv':
-  print '"Imię","Nazwisko","E-Mail","Telefon","Uczelnia/pracodawca","Wydział/dział","Doswiadczenie","Motywacja"'
-  for data in database:
-    print '"{0}","{1}","{2}","{3}","{4}","{5}","{6}","{7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
+  with open(input_file + '.csv', 'wb') as csvfile:
+    csvwriter = csv.DictWriter(csvfile, fieldnames=['imie','nazwisko','email','telefon','uczelnia','wydzial','doswiadczenie','motywacja'], dialect='excel')
+    csvwriter.writeheader()
+    for data in database:
+     csvwriter.writerow({'imie':data.imie, 'nazwisko':data.nazwisko, 'email':data.email, 'telefon':data.telefon, 'uczelnia':data.uczelnia, 'wydzial':data.wydzial, 'doswiadczenie':data.doswiadczenie, 'motywacja':data.motywacja})
+    #csvwriter.writerows(database)
+  #print '"Imię","Nazwisko","E-Mail","Telefon","Uczelnia/pracodawca","Wydział/dział","Doswiadczenie","Motywacja"'
+  #for data in database:
+  # print '"{0}","{1}","{2}","{3}","{4}","{5}","{6}","{7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
 elif output_format == 'txt':
   for data in database:
-    print '{0} {1},'.format(data.imie, data.nazwisko)
+    print '{0} {1} {2} {3} {4} {5} {6} {7}"'.format(data.imie, data.nazwisko, data.email, data.telefon, data.uczelnia, data.wydzial, data.doswiadczenie, data.motywacja)
 else:
   usage()  
